@@ -1,16 +1,16 @@
 body{
     box-sizing: border-box;
     max-width: 50%;
-    background-color: rgb(223, 221, 209);
+    background-color: rgb(209, 210, 223);
     margin: auto;
 }
 #id1{
-    width: 350px;
+    width: 288px;
     border: ipx solid black;
-    height: 300px;
+    height: 320px;
     border-radius: 5px;
     margin-top: 30px;
-    background-color: azure;
+    background-color: rgb(240, 255, 255);
 }
 p{
     display: block;
@@ -46,17 +46,36 @@ p.screen{
 }
 .operation-buttons>button{
     width: 90px;
-    height: 70px;
+    height: 60px;
+}
+.operation-buttons>button:hover{
+    background-color: rgba(0, 115, 255, 0.68);
+    font-size: 200%;
+    width: 90px;
+    height: 60px;
+}
+.number-buttons>button:hover{
+    background-color: rgba(253, 131, 208, 0.68);
+    font-size: 200%;
 }
 .buttons{
     display: flex;
     flex-direction: row;
     gap:5px;
-    justify-content: center;
+    justify-content: left;
+    margin: 0%;
 }
 .operator{
     background-color: rgba(0, 115, 255, 0.397);
 }
 .double-width{
-    width: 55px;
+    width: 505px;
+    margin-left: 35px;
+    height: 50;
+}
+.margin0{
+    margin-left: 37px;
+}
+button{
+    border-radius: 5px;
 }
